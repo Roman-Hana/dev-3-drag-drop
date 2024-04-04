@@ -1,0 +1,27 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  padding: 15px;
+}
+
+.textFromInput {
+  display: flex;
+  flex-direction: row;
+}
+
+.draggable {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.selected {
+  color: red;
+}
